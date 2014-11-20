@@ -1,0 +1,78 @@
+<html>
+<head>
+    <title>Air Calculator Help</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+-->
+</style>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p align="center" class="STYLE1">Air  Calculator</p>
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <table width="100%" height="1042" border="0">
+    <tr>
+      <td height="29" colspan="2">&gt;&gt;用户自定义函数</td>
+    </tr>
+    <tr>
+      <td width="19%" height="1007">&nbsp;</td>
+      <td width="81%"><p>1.总界面</p>
+        <p><img src="../image/fun01.JPG" width="1018" height="591" /></p>
+        <p>2.<a href="num_fun_pic.html" target="_self">用户自定义公有函数</a></p>
+        <p>3.<a href="num_fun_priv.html" target="_self">用户自定义私有函数</a></p>
+          <p>4.语法规则(大体上同C语言语法规则)</p>
+          <p><strong>函数结构:</strong></p>
+          <p>函数名（参数列表，out 返回值）</p>
+          <p>{</p>
+          <p> ........ </p>
+          <p>return(返回值列表2)</p>
+          <p>}</p>
+          <p><strong>语法规则:</strong></p>
+          <p>说明一:&quot;参数列表&quot; 同C语言语法,但这里只提供两种数据类型及其指针类型,int(int *)和double(double *) </p>
+          <p>说明二:&quot;out&quot; 为关键字,标识其后面的参数为返回值,不能没有&quot;out ...&quot;,形式为&quot;out+类型1+*+返回值名1, out+类型2+*+返回值名2, ...&quot; </p>
+          <p>说明三:&quot;返回值列表&quot;中参数均为指针类型,也只有两种数据类型,int *和double *</p>
+          <p>说明四:&quot;return&quot;为关键字,只能有一个,标识其后面的变量为返回值,不能没有&quot;return(...)&quot;</p>
+          <p>说明五:&quot;返回值列表2&quot;形式为:&quot;返回值名1+<strong>空格</strong> +m1*n1 <strong>，</strong>返回值名2+<strong>空格</strong>+m2*n2<strong>,</strong>…&quot; ,多个返回值时包含&quot;<strong>空格</strong>&quot;和&quot;<strong>,</strong>&quot; ;</p>
+          <p>返回值为1*1表示该返回值为一个数；返回值为m*n表示该返回值为一m*n矩阵（数组）；</p>
+          <p>说明六:函数前不要带返回值数据类型void int double ....;</p>
+          <p><strong>示例: </strong></p>
+          <p>mean(double* x,int n,out double* m)<br />
+            { <br />
+int i;<br />
+double tmp=0;<br />
+for(i=0;i&lt;=n-1;i++)<br />
+tmp=tmp+x[i]/n;<br />
+m[0]=tmp;<br />
+tmp=0;<br />
+for(i=0;i&lt;=n-1;i++)<br />
+tmp=tmp+(x[i]-m[0])*(x[i]-m[0]);<br />
+m[1]=tmp/(n-1);<br />
+m[2]=sqrt(m[1]);</p>
+          <p> return(m 1*3);<br />
+            }</p>
+          <p>5.示例</p>
+          <p>填写函数信息:</p>
+          <p><img src="../image/fun11.jpg" width="370" height="565" /></p>
+          <p>编辑函数体后按上图中的&quot;确定&quot;按钮开始编辑(可能要等待时间)并出现相应编译信息:</p>
+          <p><img src="../image/fun15.jpg" width="270" height="463" /></p>
+          <p>实时更新函数列表(系统自动完成):</p>
+          <p><img src="../image/fun13.jpg" width="372" height="281" /></p>
+          <p><img src="../image/fun14.jpg" width="399" height="262" /></p>
+          <p>使用函数:</p>
+          <p><img src="../image/fun16.jpg" width="334" height="266" /></p>
+          <p>&nbsp;</p>
+        <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+    
+</html>

@@ -1,0 +1,27 @@
+/* CSS Document */
+#button_zero,#button_one,#button_two,#button_three,#button_four,#button_five,#button_six,#button_seven,#button_eight,#button_nine,#button_dot,#button_plus,#button_minus,#button_multiply,#button_divide,#button_sinx,#button_cosx,#button_tanx,#button_cotx,#button_sinx1,#button_cosx1,#button_tanx1,#button_cotx1,#button_logx,#button_lnx,#button_expx,#button_sqrtx,#button_xy,#button_leftbracket,#button_rightbracket,#button_pai,#button_equal,#button_back,#button_clc1,#button_jiecheng,#button_absx,#button_sinh,#button_cosh,#button_tanh,#button_coth,#button_sinh1,#button_cosh1,#button_tanh1,#button_coth1
+{
+width:45;
+height:45;
+}
+
+#button_integrate,#button_integrate_a,#button_differential,#button_differential_x,#button_laplace,#button_taylor,#button_limit,#button_factorial,#button_sum,#button_prod,#button_clc2,#button_solve,#button_expand,#button_combine,#button_factor,#button_limit_p,#button_limit_m
+{
+width:100;
+height:45;
+}
+
+#sub_integrate,#sub_integrate_a,#sub_differential,#sub_differential_x,#sub_laplace,#sub_taylor,#sub_limit,#sub_factorial,#sub_sum,#sub_prod,
+#reset_integrate,#reset_integrate_a,#reset_differential,#reset_differential_x,#reset_laplace,#reset_taylor,#reset_limit,#reset_factorial,#reset_sum,#reset_prod,#sub_solve,#sub_taylor,#sub_laplace,#sub_expand,#sub_combine,#sub_factor,#sub_factorial,#reset_solve,#reset_taylor,#reset_laplace,#reset_expand,#reset_combine,#reset_factor,#reset_factorial
+{
+width:80;
+position:relative;
+left:85;
+}
+
+#entryBox_out {
+       	position:absolute;
+		bottom:0px;
+		margin-left:-200;
+		
+	}

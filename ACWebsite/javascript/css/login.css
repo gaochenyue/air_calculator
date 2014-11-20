@@ -1,0 +1,18 @@
+/* CSS Document */
+#login_sub
+{
+margin-left:40;
+height:25;
+width:80;
+}
+#login_cancel
+{
+margin-left:20;
+height:25;
+width:80;
+}
+#login_account,#login_password
+{
+height:25;
+width:160;
+}

@@ -1,0 +1,11 @@
+	for(i=0;i<row_count;i++)
+	{
+		for(k=0;k<column_count;k++)
+		{
+			gcvt(argu_name[i],5,temp_str);
+			strcat(temp_str,",");
+			strcat(re_list,temp_str);
+		}
+
+		strcat(re_list,"]");
+	}

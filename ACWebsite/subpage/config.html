@@ -1,0 +1,62 @@
+<html>
+<head>
+    <title>Air Calculator Help</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+-->
+</style>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p align="center" class="STYLE1">Air  Calculator</p>
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <table width="100%" height="477" border="0">
+    <tr>
+      <td height="29">&gt;&gt;安装配置说明</td>
+    </tr>
+    <tr>
+      <td height="442"><table width="100%" border="0">
+        <tr>
+          <td width="22%" height="439">&nbsp;</td>
+          <td width="78%"><p><strong>软件配置方法：</strong></p>
+            <p><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;1.打开IIS5.1<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;2.将ACWebsite文件夹作为IIS中的网站根目录<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;3.打开浏览器输入http://localhost/Service.asmx看到Webservice页面可以正常显示，若无法显示则可能是IIS设置问题，请检查服务器设置<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;4.在浏览器中打开http://localhost/index.html即可体验Air Calculator</p>
+            <p><strong>注意事项：</strong></p>
+            <p><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;1.一定要安装Mathplayer插件并保证它能正常使用，否则页面将无法正常显示<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;2.进入软件主页面后可能会产生显示不正常现象，这时您可以多次刷新页面即可正常显示。此外，请以最大化方式打开浏览器。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;3.本软件不能正常运行在IIS7.0下，数值计算功能会出错，这可能是因为dllproxy.dll文件造成的。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;4.一般来说以管理原权限登陆后在IIS5.1的默认设置下即可正常使用本软件，但有时候可能会产生权限设置问题。<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;5.本软件要调用bin目录下的四个exe文件，maxima.exe,wgnuplot.exe,cl.exe,link.exe<br>
+			  &nbsp;&nbsp;&nbsp;&nbsp;5.路径中不要含有中文</p>
+            <p><strong>如果以上方法不能正常使用本软件，那么请尝试以下方法：</strong></p>
+            <p><br>
+              &nbsp;&nbsp;&nbsp;&nbsp;1.打开visual studio (2005以上版本)<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;2.点击文件—〉新建网站<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;3.选择“ASP.NET WEB 服务”，点击“浏览”，找到ACWebsite文件夹，选择“打开现有网站”<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;4.点击启动调试，打开Service.asmx页面<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;5.复制浏览器中的Service.asmx地址，如：http://localhost:1036/Service.asmx<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;6.打开javascript\script\Connect_to_server.js脚本，找到第三行“var Service_url=&quot;Service.asmx&quot;;//服务器地址,在不同环境测试时做相应修改”<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;7.修改成var Service_url=&quot;http://localhost:1036/Service.asmx&quot;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;8.保存后退出<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;9.返回浏览器，输入：http://localhost:1036/index.html即可使用本软件<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;10.访问过程中不要关闭调试服务器。</p></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+    
+</html>

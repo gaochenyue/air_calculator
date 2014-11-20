@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\Numeric\Numeric\bin\Release\Numeric.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\Numeric\Numeric\bin\Release\Numeric.pdb
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\Numeric\Numeric\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\Numeric\Numeric\obj\Release\Numeric.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\Numeric\Numeric\obj\Release\Numeric.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Numeric\Numeric\bin\Release\Numeric.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Numeric\Numeric\bin\Release\Numeric.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Numeric\Numeric\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Numeric\Numeric\obj\Release\Numeric.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Numeric\Numeric\obj\Release\Numeric.pdb

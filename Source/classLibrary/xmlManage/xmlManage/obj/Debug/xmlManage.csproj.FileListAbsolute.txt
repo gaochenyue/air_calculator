@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\bin\Debug\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\bin\Debug\xmlManage.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Debug\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Debug\xmlManage.pdb

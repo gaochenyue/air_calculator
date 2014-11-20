@@ -1,0 +1,106 @@
+<html>
+<head>
+    <title>Air Calculator</title>
+    
+    <!-- Include scripts: -->
+    <script type="text/javascript" src="javascript/ext-2.2/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="javascript/ext-2.2/ext-all-debug.js"></script>
+	
+	<script type="text/javascript" src="javascript/script/login.js"></script>
+	<script type="text/javascript" src="javascript/ASCIIMath Calculator Demo_files/ASCIIMathML.js"></script>
+	<script type="text/javascript" src="javascript/ASCIIMath Calculator Demo_files/urchin.js"></script>
+	<script type="text/javascript" src="javascript/script/Listeners_function.js"></script>
+    <script type="text/javascript" src="javascript/script/CommandLine.js"></script>
+	<script type="text/javascript" src="javascript/script/Connect_to_server.js"></script>
+	<script type="text/javascript" src="javascript/script/XmlTreeLoader.js"></script>
+	<script type="text/javascript" src="javascript/script/XmlTreeLoader1.js"></script>
+	<script type="text/javascript" src="javascript/script/XmlTreeLoader2.js"></script>
+    <script type="text/javascript" src="javascript/script/SymbolOnButton.js"></script>
+	<script type="text/javascript" src="javascript/script/ButtonEvent.js"></script>
+	<script type="text/javascript" src="javascript/script/draw2D.js"></script>
+	<script type="text/javascript" src="javascript/script/draw3D.js"></script>
+	<script type="text/javascript" src="javascript/script/image.js"></script>
+	<script type="text/javascript" src="javascript/script/custom.js"></script>
+	<script type="text/javascript" src="javascript/script/history.js"></script>
+	<script type="text/javascript" src="javascript/script/variable.js"></script>
+	<script type="text/javascript" src="javascript/script/num.js"></script>
+	<script type="text/javascript" src="javascript/script/Grid.js"></script>
+	<script type="text/javascript" src="javascript/script/start.js"></script>
+		
+       
+    <!-- Include stylesheets here: -->
+    <link rel="stylesheet" type="text/css" href="javascript/ext-2.2/resources/css/ext-all.css">
+	<link rel="stylesheet" type="text/css" href="javascript/ext-2.2/resources/css/xtheme-slate.css">
+    <link rel="stylesheet" type="text/css" href="javascript/css/start.css">
+	<link rel="stylesheet" type="text/css" href="javascript/css/draw.css">
+	<link rel="stylesheet" type="text/css" href="javascript/css/symbol.css">
+	<link rel="stylesheet" type="text/css" href="javascript/css/custom.css">
+	<link rel="stylesheet" type="text/css" href="javascript/css/login.css">
+</head>
+<body  scroll="no" onLoad="loginwin()">
+	<script type="text/javascript">
+	Ext.namespace('math');
+	var myMask = new Ext.LoadMask(Ext.getBody(), {msg:"Please wait..."});
+	function loginwin()
+	{
+	AClogin("","");
+	var win=new Ext.Window
+				(
+				     {
+					     title:"µÇÂ¼´°¿Ú",
+						 id:'login_win',
+						 resizable:false,
+						 modal:true,
+						 autoShow:true,
+						 width:350,
+						 height:203,
+						 listeners:
+						 {
+						     "close":function(p)
+							         {
+									      //
+										  
+									 }
+						 },
+						 html:"<br><fieldset style=margin-left:17;margin-right:17><br><label style=margin-left:15><font size=2>ÕËºÅ £º&nbsp;&nbsp;</font><input id='login_account' value=gcy type=text/>&nbsp;&nbsp;<a href=''>ÉêÇëÕËºÅ</a> </label><br><br><label style=margin-left:15><font size=2>ÃÜÂë £º&nbsp;&nbsp;</font><input id='login_password' value=123  type=password /> &nbsp;&nbsp;<a href='ACHelp.html' target=_blank>²é¿´°ïÖú</a></label><br><br><button id='login_sub' onclick='login()' ><font size=2.5>È·¶¨</font></button>&nbsp;&nbsp;&nbsp;&nbsp;<button id='login_cancel' onclick=login_cancel()><font size=2.5>ÄäÃû</font></button><br><br></fieldset>"
+					 }
+				);
+				win.show();
+	}
+	    Ext.onReady
+	    (
+		    function()
+			{
+			    private.loader=new Ext.app.BookLoader1({
+	                                                 dataUrl:user_path
+	                                     });
+                
+				start();
+			}
+	    );
+              function login_cancel()
+              {
+                  Ext.getCmp('login_win').close();
+              }
+		function login()
+		{
+		    var ac=document.getElementById('login_account');//alert(ac.value);
+			username=ac.value;
+			if(username=="")
+			{
+			   username="anonymous";
+			}
+			var pwd=document.getElementById('login_password');//alert(pwd.value);
+			password=pwd.value;
+		    AClogin(ac.value,pwd.value);
+			Ext.getCmp('login_win').close();
+		}
+		
+    </script>
+	<div id='userui' align='center'>
+	
+	</div> 
+
+</body>
+    
+</html>

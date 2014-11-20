@@ -1,0 +1,22 @@
+        for(k=0;input[j]!=')'&&input[j]!=']';j++)
+	{
+		if(input[j]=='-'||(input[j]>=48&&input[j]<=57)||input[j]==' '||input[j]=='.'||input[j]==','||input[j]==';')
+		{
+			temp_str[k]=input[j];
+			k++;
+		}
+	}
+    temp_str[k]='\0';
+	j++;
+    
+        //**
+        token = strtok( temp_str, seps );
+		i=0;
+        while( token != NULL )              //**
+        {
+            temp_da[i]=atof(token);
+			
+            //**
+            token = strtok( NULL, seps ); 
+			i++;
+        }

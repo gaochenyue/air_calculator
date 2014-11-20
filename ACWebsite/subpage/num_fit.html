@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Air Calculator Help</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+.STYLE2 {color: #000000}
+-->
+</style>
+</head>
+<body>
+
+<form id="form1" name="form1" method="post" action="">
+  <p align="center" class="STYLE1">Air  Calculator</p>
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <table width="108%" border="0">
+    <tr>
+      <td height="29" colspan="2">&gt;&gt;数值计算&gt;&gt;拟合</td>
+    </tr>
+    <tr>
+      <td width="9%" height="466">&nbsp;</td>
+      <td width="91%"><p>1.多项式拟合 </p>
+          <p>命令: polyfit([xdata],[ydata],[datalen],[n]) <br />
+示例:
+        AC:\&gt;&nbsp;polyfit([-2,-1.6,-1.2,-0.8,-0.4,0,0.4,0.8],[2.8,2.96,2.54,3.44,3.56,5.4,6.0,8.4],[8],[2])</p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;ans= </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;3.495625   1.87797619   1.061755952 <br />
+          </p>
+          <p>2.曲面拟合 </p>
+        <p><br />
+          命令: curefit([xdata],[ydata],[zdata],[xlen],[ylen],[xn],[yn]) <br />
+示例:
+        AC:\&gt;&nbsp;curefit([1,2,3],[5,10],[5,10;10,20;15,30],[3],[2],[3],[3])</p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;ans= </p>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;15.&nbsp;&nbsp;&nbsp;&nbsp;2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7.5 <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp;3.996802889e-015&nbsp;   5.329070518e-016 <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;0.&nbsp;&nbsp;&nbsp;&nbsp;0.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0. <br />
+        </p>
+        <p><br />
+                </p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+    
+</html>

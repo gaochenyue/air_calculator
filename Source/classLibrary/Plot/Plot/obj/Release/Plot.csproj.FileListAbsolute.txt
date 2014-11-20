@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Plot\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Plot\bin\Release\Plot.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Plot\bin\Release\Plot.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Plot\obj\Release\Plot.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\Plot\obj\Release\Plot.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Plot\Plot\bin\Release\Plot.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Plot\Plot\bin\Release\Plot.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Plot\Plot\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Plot\Plot\obj\Release\Plot.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Plot\Plot\obj\Release\Plot.pdb

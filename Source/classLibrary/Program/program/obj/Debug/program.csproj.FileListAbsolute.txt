@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\bin\Debug\program.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\bin\Debug\program.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Debug\program.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Debug\program.pdb

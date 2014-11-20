@@ -1,0 +1,210 @@
+<html>
+<head>
+    <title>Air Calculator Help</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+.STYLE2 {color: #000000}
+-->
+</style>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p align="center" class="STYLE1">Air  Calculator</p>
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <table width="108%" border="0">
+    <tr>
+      <td height="29" colspan="2">&gt;&gt;数值计算&gt;&gt;矩阵运算</td>
+    </tr>
+    <tr>
+      <td width="9%" height="1045">&nbsp;</td>
+      <td width="91%"><p>1.矩阵乘法 </p>
+        <p>命令: mult([A],[B],[m],[n],[k]) <br />
+          示例: AC:\&gt;&nbsp;&nbsp;mult([1,2;3,4],[1;2],[2],[2],[1])<br />
+          <br />
+&nbsp;ans&nbsp;=<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;5.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;11.</p>
+        <p>2.矩阵的行列式 </p>
+        <p><br />
+          命令: &nbsp;det([A],[n]) <br />
+          示例: AC:\&gt;&nbsp;&nbsp;det([12,13,4;6,7,8;9,3,11,2],[3])<br />
+          <br />
+&nbsp;ans&nbsp;=<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;534.<br />
+        </p>
+        <p>3.矩阵的秩</p>
+        <p>命令: &nbsp;rank([A],[m],[n]) <br />
+          示例: AC:\&gt;&nbsp;&nbsp;rank([12,13,4;6,7,8;9,3,11,2],[3],[3])<br />
+          <br />
+&nbsp;ans&nbsp;=<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;3 </p>
+        <p>4.矩阵求逆</p>
+        <p>命令: &nbsp;inv([A],[n]) <br />
+示例: AC:\&gt;&nbsp;&nbsp;inv([12,13,4;6,7,8;9,3,11,2],[3])<br />
+<br />
+&nbsp;ans&nbsp;=<br />
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;9.925093633e-002&nbsp;&nbsp;&nbsp;&nbsp;-0.2453183521&nbsp;&nbsp;&nbsp;&nbsp;0.1423220974<br />
+&nbsp;&nbsp;&nbsp;&nbsp;1.123595506e-002&nbsp;&nbsp;&nbsp;&nbsp;0.1797752809&nbsp;&nbsp;&nbsp;&nbsp;-0.1348314607<br />
+&nbsp;&nbsp;&nbsp;&nbsp;-8.426966292e-002&nbsp;&nbsp;&nbsp;&nbsp;0.1516853933&nbsp;&nbsp;&nbsp;&nbsp;1.123595506e-002</p>
+        <p>5.矩阵的LU分解(三角分解)</p>
+        <p>命令: lu([A],[n]) <br />
+        示例: lu([12,13,4;6,7,8;9,3,11],[3])<br />
+          <br />
+        ans= </p>
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tbody>
+            <tr>
+              <td width="250">1.</td>
+              <td width="250">0.</td>
+              <td width="250">0.</td>
+              <td width="250"></td>
+            </tr>
+            <tr>
+              <td width="250">0.5</td>
+              <td width="250">1.</td>
+              <td width="250">0.</td>
+              <td width="250"></td>
+            </tr>
+            <tr>
+              <td width="250">0.75</td>
+              <td width="250">-13.5</td>
+              <td width="250">1.</td>
+              <td width="250"></td>
+            </tr>
+            <tr>
+              <td width="250"></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>ans= </p>
+        <table cellspacing="0" cellpadding="0" border="0">
+          <tbody>
+            <tr>
+              <td width="250">12.</td>
+              <td width="250">13.</td>
+              <td width="250">4.</td>
+              <td width="250"></td>
+            </tr>
+            <tr>
+              <td width="250">0.</td>
+              <td width="250">0.5</td>
+              <td width="250">6.</td>
+              <td width="250"></td>
+            </tr>
+            <tr>
+              <td width="250">0.</td>
+              <td width="250">0.</td>
+              <td width="250">89.</td>
+            </tr>
+          </tbody>
+        </table>
+        <p><br />
+          注:
+          第一个ans为分解所得L矩阵,第二个ans为分解所得U矩阵</p>
+        <p>6.矩阵的QR分解</p>
+          命令: qr([A],[m],[n]) <br />
+          示例: qr([1,2,3;4,5,6;7,8,9;10,11,12],[4],[3])<br />
+          <p>ans= </p>
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td width="250">-7.761505257e-002</td>
+                <td width="250">-0.8330521614</td>
+                <td width="250">0.5439542869</td>
+                <td width="250">-6.413839564e-002</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">-0.3104602103</td>
+                <td width="250">-0.4512365874</td>
+                <td width="250">-0.677466445</td>
+                <td width="250">0.4909574482</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">-0.543305368</td>
+                <td width="250">-6.942101345e-002</td>
+                <td width="250">-0.2769299707</td>
+                <td width="250">-0.7894997095</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">-0.7761505257</td>
+                <td width="250">0.3123945605</td>
+                <td width="250">0.4104421288</td>
+                <td width="250">0.3626806569</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250"></td>
+              </tr>
+            </tbody>
+          </table>
+          <p>ans= </p>
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td width="250">-12.88409873</td>
+                <td width="250">-14.59162988</td>
+                <td width="250">-16.29916104</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">0.</td>
+                <td width="250">-1.041315202</td>
+                <td width="250">-2.082630404</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">0.</td>
+                <td width="250">0.</td>
+                <td width="250">1.820901148e-015</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">0.</td>
+                <td width="250">0.</td>
+                <td width="250">0.</td>
+              </tr>
+            </tbody>
+          </table>
+          <p><br />
+            注:
+            第一个ans为分解所得Q矩阵,第二个ans为分解所得R矩阵
+            </p>
+          </p>
+          <p>7.矩阵的特征值</p>
+          <p>命令: eig([A],[n]) <br />
+示例: AC:\&gt;&nbsp;&nbsp;eig([2,1;-1,0],[2])<br />
+<br />
+ans= </p>
+          <table cellspacing="0" cellpadding="0" border="0">
+            <tbody>
+              <tr>
+                <td width="250">1.+0.i</td>
+                <td width="250"></td>
+              </tr>
+              <tr>
+                <td width="250">1.+0.i</td>
+              </tr>
+            </tbody>
+          </table>
+      <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+    
+</html>

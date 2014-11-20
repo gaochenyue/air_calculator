@@ -1,0 +1,16 @@
+/* CSS Document */
+#func_desc,#func_form,#func_illu,#func_exam,#func_back
+{
+height:20;
+width:200;
+}
+#func_sub
+{
+margin-left:30;
+width:80;
+}
+#func_select
+{
+margin-left:110;
+width:80;
+}

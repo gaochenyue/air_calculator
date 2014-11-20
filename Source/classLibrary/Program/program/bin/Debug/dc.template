@@ -1,0 +1,11 @@
+for(k=0;input[j]!=')'&&input[j]!=']';j++)
+	{
+		if((input[j]>=48&&input[j]<=57)||input[j]=='.')
+		{
+			temp_str[k]=input[j];
+			k++;
+		}
+	}
+	temp_str[k]='\0';
+	temp_d=atof(temp_str);
+	j++;

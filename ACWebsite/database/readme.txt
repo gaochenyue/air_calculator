@@ -1,0 +1,3 @@
+userInformation:存储用户信息
+imageInformation:存储图片信息
+libraryInformation:存储函数信息

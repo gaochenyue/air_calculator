@@ -1,0 +1,11 @@
+	for(k=0;input[j]!=')'&&input[j]!=']';j++)
+	{
+		if(input[j]>=48&&input[j]<=57)
+		{
+			temp_str[k]=input[j];
+			k++;
+		}
+	}
+	temp_str[k]='\0';
+	temp_i=atoi(temp_str);
+	j++;

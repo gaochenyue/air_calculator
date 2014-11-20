@@ -1,0 +1,15 @@
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\program\bin\Release\program.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\program\bin\Release\program.pdb
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\program\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\program\obj\Release\program.dll
+C:\Documents and Settings\Administrator\Local Settings\Application Data\Temporary Projects\program\obj\Release\program.pdb
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\program\program\bin\Release\program.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\program\program\bin\Release\program.pdb
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\program\program\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\program\program\obj\Release\program.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\program\program\obj\Release\program.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\bin\Release\program.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\bin\Release\program.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Release\program.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\Program\program\obj\Release\program.pdb

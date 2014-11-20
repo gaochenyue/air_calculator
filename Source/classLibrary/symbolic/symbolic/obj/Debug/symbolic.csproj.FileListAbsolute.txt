@@ -1,0 +1,5 @@
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\bin\Debug\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\bin\Debug\symbolic.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Debug\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Debug\symbolic.pdb

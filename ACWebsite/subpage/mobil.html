@@ -1,0 +1,98 @@
+<html>
+<head>
+    <title>Air Calculator Help</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 36px;
+}
+.STYLE2 {color: #000000}
+-->
+</style>
+</head>
+<body>
+<form id="form1" name="form1" method="post" action="">
+  <p align="center" class="STYLE1">Air  Calculator</p>
+</form>
+<form id="form2" name="form2" method="post" action="">
+  <table width="100%" border="0">
+    <tr>
+      <td height="29" colspan="2">&gt;&gt;手机用户界面</td>
+    </tr>
+    <tr>
+      <td width="24%" height="226">&nbsp;</td>
+      <td width="76%"><p>1.手机用户界面</p>
+          <p><img src="../image/wap.jpg" width="344" height="582" /></p>
+        <p>2.手机用户操作指南</p>
+        <p>一.普通计算器功能</p>
+        <p>显示分数:<img src="../image/wap01.jpg" width="225" height="134" /></p>
+        <p>显示浮点数:<img src="../image/wap02.jpg" width="223" height="135" /></p>
+        <p>显示大数:<img src="../image/wap03.jpg" width="222" height="136" /></p>
+        <p>显示科学计数:<img src="../image/wap04.jpg" width="222" height="130" /></p>
+        <p>二.符号计算</p>
+        <p>(1).常量</p>
+        <ul>
+          <li>%e - Euler’s Number</li>
+          <li>%pi - <img alt="\displaystyle \pi" src="http://math-blog.com/wp-content/latex/pictures/079d6019b766ef46daa135719f467853.gif" title="\displaystyle \pi" /></li>
+          <li>%phi - the golden mean (<img alt="\displaystyle \frac{1+\sqrt{5}}{2}" src="http://math-blog.com/wp-content/latex/pictures/84edea5047a93af2f47894da4ddb615f.gif" title="\displaystyle \frac{1+\sqrt{5}}{2}" />)</li>
+          <li>%i - the imaginary unit (<img alt="\displaystyle \sqrt{-1}" src="http://math-blog.com/wp-content/latex/pictures/4bb0994807c45a649e806350998e2de6.gif" title="\displaystyle \sqrt{-1}" />)</li>
+          <li>inf - real positive infinity (<img alt="\infty" src="http://math-blog.com/wp-content/latex/pictures/7ed9abff4dafd78d08e616c899412e92.gif" title="\infty" />)</li>
+          <li>minf - real minus infinity (<img alt="-\infty" src="http://math-blog.com/wp-content/latex/pictures/aad18c0a88969b4c1bdc3711475796c2.gif" title="-\infty" />)</li>
+          <li>infinity - complex infinity</li>
+          
+        </ul>        
+        <p>(2).factor 进行因数分解
+          或者多项式的因子计算</p>
+        <pre>factor(30!)<br />=&gt; <img alt="\displaystyle 2^{26}\,3^{14}\,5^7\,7^4\,11^2\,13^2\,17\,19\,23\,29" src="http://math-blog.com/wp-content/latex/pictures/ac488acd6295bff76bedc4911f61cb47.gif" title="\displaystyle 2^{26}\,3^{14}\,5^7\,7^4\,11^2\,13^2\,17\,19\,23\,29" /></pre>
+        <pre>factor(x^2 + x -6)<br />=&gt; <img alt="(x-2)(x+3)" src="http://math-blog.com/wp-content/latex/pictures/1ca8d0f0acd5b57415e866fc4c6fa5eb.gif" title="(x-2)(x+3)" /></pre>
+        <p>(3).expand 进行多项式展开</p>
+        <pre>expand((x+3)^4)<br />=&gt; <img alt="\displaystyle x^4+12\,x^3+54\,x^2+108\,x+81" src="http://math-blog.com/wp-content/latex/pictures/62d6a9fcc37d85f633f566c105d7c1ae.gif" title="\displaystyle x^4+12\,x^3+54\,x^2+108\,x+81" /></pre>
+        <p>(4).化简</p>
+        <p>简化有理数表达式：</p>
+        <pre>ratsimp((x^2-1)/(x+1))<br />=&gt; <img alt="x-1" src="http://math-blog.com/wp-content/latex/pictures/66506113b68a4a541e04ca99ae2f7b4f.gif" title="x-1" /><br /><br />简化三角方程：<br /><br />trigsimp(2*cos(x)^2 + sin(x)^2)<br />=&gt; <img alt="\displaystyle \cos ^2x+1" src="http://math-blog.com/wp-content/latex/pictures/cbfd95f87dd5d4c8d6bae206527a29a8.gif" title="\displaystyle \cos ^2x+1" /></pre>
+        <p>(5).solve 进行方程求解</p>
+        <pre>solve(x^3=1,x)<br />=&gt; <img alt="\displaystyle \left[ x={{\sqrt{3}\,i-1}\over{2}} , x=-{{\sqrt{3}\,i+1}\over{2}}  , x=1 \right]" src="http://math-blog.com/wp-content/latex/pictures/d6fee10c9270a09a696c50c5779b8e33.gif" title="\displaystyle \left[ x={{\sqrt{3}\,i-1}\over{2}} , x=-{{\sqrt{3}\,i+1}\over{2}}  , x=1 \right]" /></pre>
+        <pre>solve([x - 2*y = 14,  x + 3*y = 9],[x,y])<br />=&gt; <img alt="\left[ \left[ x=12 , y=-1 \right]  \right]" src="http://math-blog.com/wp-content/latex/pictures/e2ab8ed6a972b64d420d68fb6ba413fa.gif" title="\left[ \left[ x=12 , y=-1 \right]  \right]" /></pre>
+        <p>(6).limit 求极限</p>
+        <pre>limit((1+1/x)^x,x,inf)<br />=&gt; %<img alt="e" src="http://math-blog.com/wp-content/latex/pictures/e1671797c52e15f763380b45e841ec32.gif" title="e" /><br />limit(sin(x)/x,x,0)<br />=&gt; <img alt="1" src="http://math-blog.com/wp-content/latex/pictures/c4ca4238a0b923820dcc509a6f75849b.gif" title="1" /><br />limit(2*(x^2-4)/(x-2),x,2)<br />=&gt; <img alt="8" src="http://math-blog.com/wp-content/latex/pictures/c9f0f895fb98ab9159f51fd0297e236d.gif" title="8" /><br />limit(log(x),x,0,plus)(右极限)<br />=&gt;minf(负无穷)<br />limit(sqrt(-x)/x,x,0,minus)(左极限)<br />=&gt;minf(负无穷)</pre>
+        <p>(7).        diff 求微分</p>
+        <pre>diff(sin(x), x)<br />=&gt; <img alt="\displaystyle cos(x)" src="http://math-blog.com/wp-content/latex/pictures/40b0247bdb1858c47ce17b56869e55e0.gif" title="\displaystyle cos(x)" /><br />diff(x^x, x)<br />=&gt;x^x*(log(x)+1)
+
+
+(8).integrate 求不定积分和定积分
+
+
+integrate(1/x, x)<br />=&gt;log(x)
+
+integrate(x+2/(x -3), x, 0,1)<br />=&gt; <img alt="\displaystyle -2\,\log 3+2\,\log 2+{{1}\over{2}}" src="http://math-blog.com/wp-content/latex/pictures/19e7d206eb325d951572e8beee3f8a2f.gif" title="\displaystyle -2\,\log 3+2\,\log 2+{{1}\over{2}}" /><br />integrate(%e^(-x^2),x,minf,inf)<br />=&gt; <img alt="\sqrt{\% pi}" src="http://math-blog.com/wp-content/latex/pictures/e6fd8118b18ff9956c9f35a553e71202.gif" title="\sqrt{\% pi}" />
+
+
+(9).sum 进行累加
+
+sum(i,i,1,100)
+=&gt;5050
+
+(10).product 进行累积
+
+product(i,i,1,100)
+=&gt;3628800
+
+(11).Taylor 级数展开
+
+taylor(sin(x),x,0,7)
+=&gt;x-x^3/6+x^5/120-x^7/5040
+</pre>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;        </p>
+        <p>&nbsp;</p></td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+</form>
+<p>&nbsp;</p>
+</body>
+    
+</html>

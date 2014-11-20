@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="gb2312"?>
+<users>
+    <user>
+		<username>anonymous</username>
+		<password></password>
+		<userxmlpath>users\anonymous\user.asp</userxmlpath>
+	</user>
+	<user>
+		<username>gcy</username>
+		<password>123</password>
+		<userxmlpath>users\gcy\user.asp</userxmlpath>
+	</user>
+		<user>
+		<username>wyq</username>
+		<password>123</password>
+		<userxmlpath>users\wyq\user.asp</userxmlpath>
+	</user>
+	<user>
+		<username>zgp</username>
+		<password>123</password>
+		<userxmlpath>users\wyq\user.asp</userxmlpath>
+	</user>
+</users>

@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\xmlManage\xmlManage\bin\Release\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\xmlManage\xmlManage\bin\Release\xmlManage.pdb
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\xmlManage\xmlManage\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\xmlManage\xmlManage\obj\Release\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\assemble\classLib\xmlManage\xmlManage\obj\Release\xmlManage.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\bin\Release\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\bin\Release\xmlManage.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Release\xmlManage.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\xmlManage\xmlManage\obj\Release\xmlManage.pdb

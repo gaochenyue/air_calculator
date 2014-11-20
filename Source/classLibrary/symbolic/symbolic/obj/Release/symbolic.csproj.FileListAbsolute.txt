@@ -1,0 +1,10 @@
+C:\Documents and Settings\Administrator\桌面\assemble\symbolic\symbolic\bin\Release\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\assemble\symbolic\symbolic\bin\Release\symbolic.pdb
+C:\Documents and Settings\Administrator\桌面\assemble\symbolic\symbolic\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\assemble\symbolic\symbolic\obj\Release\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\assemble\symbolic\symbolic\obj\Release\symbolic.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\bin\Release\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\bin\Release\symbolic.pdb
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Release\symbolic.dll
+C:\Documents and Settings\Administrator\桌面\Assembly\classLib\symbolic\symbolic\obj\Release\symbolic.pdb
