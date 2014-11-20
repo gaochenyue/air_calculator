@@ -66,6 +66,6 @@ webservice中用到的ACWebsite\bin\dllproxy.dll文件在IIs7.0下不能正常运行（在我们的
 
 
 如有任何疑问请联系：
-高晨悦，电话：15312062298,Email:gaochenyue@gmail.com
+高晨悦，Email:gaochenyue at gmail.com
 
 
